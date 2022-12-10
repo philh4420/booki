@@ -476,6 +476,7 @@ button:hover {
     .accommodations .row,
     .most-popular .row {
         flex-direction: row;
+        gap: 0;
     }
 
     .accommodations {
@@ -511,31 +512,27 @@ button:hover {
     }
 
     .popular-card-img {
-        width: 150%;
+        width: 60%;
         height: 190px
     }
 
-    .popular-img {
-        width: 85%;
-    }
-
     .card-text-popular {
-        padding: 1%;
-        width: 130%;
+        padding: 2% 7%;
+        /* padding: 5px 0 20px 0; */
     }
 
     .popular-text,
     .ratings {
-        width: 80%;
+        /* width: 80%; */
         padding-right: 10px;
     }
 
     br {
-        content: "";
+        content: " ";
     }
 
     br:after {
-        content: " ";
+        content: "";
     }
 
     .activities-card-wrapper {
@@ -762,6 +759,7 @@ button:hover {
 
     .most-popular .row {
         flex-direction: row;
+        gap: 0;
     }
 
     .popular-header i {
